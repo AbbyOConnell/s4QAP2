@@ -1,0 +1,7 @@
+services:
+  java_backend:
+    image: abbyoconnell/qap2
+    ports:
+      - 8080:8080
+    environment:
+      - spring.datasource.url=jdbc:mysql://host.docker.internal:3306/qap22023
